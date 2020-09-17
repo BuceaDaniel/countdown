@@ -1,0 +1,46 @@
+h1 {
+  text-align: center;
+  font-family: monospace;
+  font-size: 72px;
+}
+
+body {
+  background: rgb(9, 9, 121);
+  background: linear-gradient(
+    90deg,
+    rgba(9, 9, 121, 1) 55%,
+    rgba(34, 39, 177, 1) 100%
+  );
+  color: #eeffee;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+button {
+  background: none;
+  width: 200px;
+  height: 40px;
+  margin: 100px auto 0 auto;
+  display: block;
+  outline: none;
+  border: 1px solid #eeffee;
+  color: #eeffee;
+}
+
+.clock {
+  font-size: 72px;
+  text-align: center;
+  margin-top: 25vh;
+  font-family: monospace;
+}
+
+.h::after {
+  content: " :";
+}
+
+.m::after {
+  content: " :";
+}
